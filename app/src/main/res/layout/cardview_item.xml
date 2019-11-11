@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardview_id"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:clickable="true"
+    android:layout_height="170dp"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="7dp"
+    cardview:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/cardview_image_id"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gerald"
+            />
+
+        <TextView
+            android:id="@+id/cardview_name_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="President Name"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
