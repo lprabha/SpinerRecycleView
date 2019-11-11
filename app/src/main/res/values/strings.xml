@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">USA_presidents</string>
+    <string name="app_name">Presidents of USA</string>
     <string name="personal">Personal Details</string>
     <string-array name="address">
         <item>Kathmandu</item>
